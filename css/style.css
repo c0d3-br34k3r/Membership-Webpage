@@ -1,0 +1,200 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.section-1{
+    opacity: 1;
+    overflow: hidden;
+}
+.section-1 .bg-image{
+    opacity: 0.1;
+    max-width: 100%;
+}
+h1{
+    position: relative;
+    margin-top: -100px;
+    height: 66px;
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #0A0F51;
+}
+
+.section-1 .btn{
+    position: absolute;
+    margin-top: 0px;
+    width: 175px;
+    height: 50px;
+    top: 50px;
+    color: rgb(253, 253, 253);
+    background-color: #0176BD;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    font-style: normal;
+    font-size: 24px;
+    align-items: justify;
+    text-align: center;
+    letter-spacing: 0.05em;
+    z-index: 1;
+    
+}
+
+.section-2{
+    margin-top:10px;
+    background-color: #CB0000;
+    color:white;
+}
+
+.section-2 a{
+    color:white;
+
+}
+.section-2 a:hover{
+    background-color: #000000;
+    color:rgb(255, 0, 0);
+}
+
+.section-4 .btn{
+    background: #ffffff;
+    color: #5C6D79;
+    border-radius: 30px;
+}
+
+.section-3{
+    background-image: url("../asset/background.png");
+    overflow: hidden;
+}
+
+.section-3 #leftbox{
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align:left;
+    top:7vmin;
+    left:7vmin;
+    border-radius: 3px;
+    padding: 10vmin 15vmin 10vmin 15vmin;
+    box-shadow:0px 25px 42px rgba(0, 0, 0, 0);
+    box-sizing: border-box; 
+    justify-content: center;   
+    z-index: 2;
+}
+.section-3 #rightbox{
+    background: rgb(255, 255, 255);
+    border-radius: 3px;
+    text-align:left;
+    top:7vmin;
+    left:7vmin;
+    border-radius: 3px;
+    padding: 10vmin 15vmin 10vmin 15vmin;
+    box-shadow:0px 25px 42px rgba(0, 0, 0, 0);
+    box-sizing: border-box;   
+    justify-content: center; 
+    z-index: 2;
+}
+
+.section-3 .semi-circle-left{
+    position: relative;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    background-color: #CB0000;
+    height: 35px;
+    width: 70px;
+    align-items: center;
+    border-radius: 35px 35px 0 0;
+}
+.section-3 .semi-circle-right{
+    position: relative;
+    color:white;
+    text-align: center;
+    font-size: 25px;
+    background-color: #1B88C3;
+    height: 35px;
+    width: 70px;
+    align-items: center;
+    border-radius: 35px 35px 0 0;
+
+}
+
+hr.divider{
+    max-width: 5.25rem;
+    border-width: 0.2rem;
+}
+
+.section-4{
+    background-color: #0A0F51;
+    background-size: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+.section-4 h5{
+    position: absolute;
+    color: #ffffff;
+    margin-top: -150px;
+}
+
+.section-4 p{
+    position: absolute;
+    color: #ffffff;
+    margin-top: -100px;
+    
+}
+
+.section-4 .img-fluid{
+    margin-left: -100px;
+}
+
+.section-4 .btn{
+    width: 211px;
+    height: 50px;
+    top: 3180px;
+}
+
+.section-5 .nav{
+    
+    position:absolute;
+    margin-top: -100px;
+}
+.section-5 .nav a{
+    font-family: Bebas Neue;
+    font-style: normal;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.05em;
+    color: #0A0F51;
+    
+}
+
+.section-5 .social-media{
+    margin-top: -100px;
+    padding-top: 20px;
+}
+
+.section-5 .social-media .yt{
+    width: 50px;
+    height: 50px;
+    background: #ff0000;
+    border-radius: 50%;
+    padding: solid #CB0000;
+}
+
+.section-5 .social-media .fb{
+    width: 50px;
+    height: 50px;
+    background: #ffffff;
+    border-radius: 50%;
+    padding: solid #CB0000;
+}
+
