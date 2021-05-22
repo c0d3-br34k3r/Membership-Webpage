@@ -87,10 +87,6 @@ h1{
     
 }
 
-.section-3 .container{
-   
-}
-
 .section-3 .row{
     margin-left: -10%;
     margin-right: -10%;
@@ -242,23 +238,17 @@ color: #0A0F51;
     margin-top: 0%;
 }
 
-.section-5 .img-fluid{
-    background-size:auto;
-    height:40vh;
-    width:100%;
+.section-5{
+    padding: 0%;
+    margin: 0%;
 }
 
 .section-5 .nav{
-    
-    position:absolute;
-    margin-top: 0px;
-    padding-left: 20%;
+    padding-left: 5%;
     display: flex;
+    background-image: url("../asset/footer.png");
 }
 
-.section-5 .row{
-    margin-top: -15%;
-}
 .section-5 .nav a{
     font-family: Bebas Neue;
     font-style: normal;
@@ -267,13 +257,12 @@ color: #0A0F51;
     align-items: center;
     letter-spacing: 0.05em;
     color: #0A0F51;
-    
 }
 
 .section-5 .social-media{
     margin-top: 0px;
     display: flex;
-    padding: 5px;
+    padding-right: 250px;
 }
 
 .section-5 .social-media .yt{
@@ -282,8 +271,7 @@ color: #0A0F51;
     background: #ff0000;
     border-radius: 50%;
     padding: 10px;
-    margin-left: 5px;
-    
+    margin-left: 5px; 
 }
 
 .section-5 .social-media .fb{
@@ -292,7 +280,6 @@ color: #0A0F51;
     background: #ffffff;
     border-radius: 50%;
     padding: 10px;
-    margin-right: 5px;
-    
+    margin-right: 5px; 
 }
 
