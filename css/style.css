@@ -245,6 +245,8 @@ color: #0A0F51;
 
 .section-5 .nav{
     padding-left: 5%;
+    padding-top: 10%;
+    padding-bottom: 5%;
     display: flex;
     background-image: url("../asset/footer.png");
 }
